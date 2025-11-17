@@ -45,3 +45,19 @@ temp/
 # Outros
 *.tar.gz
 *.zip
+
+# Diretórios de sistema do Windows (para evitar problemas de permissão)
+AppData/
+Ambiente de Impressão/
+Ambiente de Rede/
+Configurações Locais/
+Cookies/
+Dados de Aplicativos/
+Documents/Meus Vídeos/
+Documents/Minhas Imagens/
+Documents/Minhas Músicas/
+Menu Iniciar/
+Meus Documentos/
+Modelos/
+Recent/
+SendTo/
