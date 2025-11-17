@@ -1,35 +1,39 @@
 # Dependências
 node_modules/
-npm-cache/
+.npm
+.pnpm
 .yarn/
-
-# Produção
-build/
-dist/
-
-# Next.js
-.next/
-out/
-
-# Ambiente
-.env
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
-
-# Logs
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
+# Produção
+build/
+dist/
+.out/
+.next/
+
+# Ambiente
+.env
+.env*.local
+.env.development.local
+.env.test.local
+.env.production.local
+
 # IDE
 .vscode/
 .idea/
+*.swp
+*.swo
 
 # Sistema
 .DS_Store
 Thumbs.db
+desktop.ini
+
+# Logs
+logs/
+*.log
 
 # Backup
 backup/
@@ -42,22 +46,28 @@ temp/
 *.tmp
 *.temp
 
+# Cache
+.cache/
+.parcel-cache/
+.turbo/
+
 # Outros
 *.tar.gz
 *.zip
+*.rar
 
-# Diretórios de sistema do Windows (para evitar problemas de permissão)
+# Windows system directories
+3D Objects/
 AppData/
-Ambiente de Impressão/
-Ambiente de Rede/
-Configurações Locais/
-Cookies/
-Dados de Aplicativos/
-Documents/Meus Vídeos/
-Documents/Minhas Imagens/
-Documents/Minhas Músicas/
-Menu Iniciar/
-Meus Documentos/
-Modelos/
-Recent/
-SendTo/
+Contacts/
+Downloads/
+Favorites/
+Links/
+Music/
+OneDrive/
+Saved Games/
+Searches/
+Videos/
+
+# Build artifacts
+*.tsbuildinfo
