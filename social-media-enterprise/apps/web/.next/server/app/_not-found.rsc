@@ -1,6 +1,0 @@
-0:["pHqmI1Ptip02lj_OmZCqV",[[["",{"children":["__PAGE__",{}]},"$undefined","$undefined",true],"$L1",[null,"$L2"]]]]
-3:I[9305,[],""]
-4:I[5236,[],""]
-1:[null,["$","html",null,{"lang":"en","children":["$","body",null,{"children":["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children"],"loading":"$undefined","loadingStyles":"$undefined","loadingScripts":"$undefined","hasLoading":false,"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":["$","div",null,{"children":[["$","h2",null,{"children":"Not Found"}],["$","p",null,{"children":"Could not find requested resource"}]]}],"notFoundStyles":[],"initialChildNode":["$L5",["$","div",null,{"children":[["$","h2",null,{"children":"Not Found"}],["$","p",null,{"children":"Could not find requested resource"}]]}],null],"childPropSegment":"__PAGE__","styles":null}]}]}],null]
-2:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","1",{"charSet":"utf-8"}],["$","title","2",{"children":"Social Media Enterprise"}],["$","meta","3",{"name":"description","content":"Monetize suas redes sociais"}]]
-5:null

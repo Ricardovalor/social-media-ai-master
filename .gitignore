@@ -1,14 +1,17 @@
 # Dependências
 node_modules/
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
+npm-cache/
+.yarn/
 
 # Produção
 build/
 dist/
 
-# Variáveis de ambiente
+# Next.js
+.next/
+out/
+
+# Ambiente
 .env
 .env.local
 .env.development.local
@@ -16,47 +19,29 @@ dist/
 .env.production.local
 
 # Logs
-logs
-*.log
-
-# Sistema operacional
-.DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
-Thumbs.db
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
 
 # IDE
 .vscode/
 .idea/
-*.swp
-*.swo
 
-# Arquivos do sistema (Windows)
-AppData/
-Cookies/
-Recent/
-SendTo/
-Start Menu/
-Templates/
-NTUSER.DAT*
-ntuser.ini
-*.regtrans-ms
-*.bin
+# Sistema
+.DS_Store
+Thumbs.db
 
-# Backup files
-*.backup
-*.bak
+# Backup
+backup/
+backup-*
+*-backup/
 
-# Arquivos temporários
+# Temporários
+tmp/
+temp/
 *.tmp
 *.temp
 
 # Outros
-.DS_Store
-Thumbs.db
-
-# Projeto específico
-package-updated.json
+*.tar.gz
+*.zip
