@@ -1,18 +1,11 @@
-"use client";
-
-import { MetricsDashboard } from "../../../packages/ui/components/dashboard/MetricsDashboard";
+import { PredictiveAnalytics } from '@/components/analytics/PredictiveAnalytics';
+import { RealTimeAnalytics } from '@/components/analytics/RealTimeAnalytics';
 
 export default function AnalyticsPage() {
   return (
-    <div className="space-y-6">
-      <div className="text-center mb-8">
-        <h1 className="text-4xl font-bold text-gray-800 mb-2">📊 Analytics Avançado</h1>
-        <p className="text-gray-600 text-lg">
-          Métricas em tempo real e insights para otimizar sua estratégia
-        </p>
-      </div>
-
-      <MetricsDashboard />
+    <div className="container mx-auto py-6 space-y-6">
+      <RealTimeAnalytics />
+      <PredictiveAnalytics />
     </div>
   );
 }
