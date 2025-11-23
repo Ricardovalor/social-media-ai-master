@@ -24,31 +24,11 @@ yarn-error.log*
 .vscode/
 .idea/
 
-# Sistema Windows
-Thumbs.db
-ehthumbs.db
-Desktop.ini
-
-# Arquivos de usuário
-NTUSER.DAT*
-ntuser.ini
-*.log
-
-# Diretórios de sistema
-Ambiente de Impressão/
-Ambiente de Rede/
-Configurações Locais/
-Cookies/
-Dados de Aplicativos/
-Documents/Meus Vídeos/
-Documents/Minhas Imagens/
-Documents/Minhas Músicas/
-Menu Iniciar/
-Meus Documentos/
-Modelos/
-Recent/
-SendTo/
+# Prisma
+/prisma/migrations
+/prisma/dev.db
+/prisma/dev.db-journal
 
 # Outros
-.netlify
-.vercel
+*.log
+health_report.html

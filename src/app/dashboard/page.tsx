@@ -1,9 +1,10 @@
-import { PerformanceDashboard } from '@/components/dashboard/PerformanceDashboard';
+import { AuthGuard } from '@/components/auth/AuthGuard'
+import DashboardContent from '@/components/dashboard/DashboardContent'
 
 export default function DashboardPage() {
   return (
-    <div className="container mx-auto py-6">
-      <PerformanceDashboard />
-    </div>
-  );
+    <AuthGuard>
+      <DashboardContent />
+    </AuthGuard>
+  )
 }
