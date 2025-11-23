@@ -71,3 +71,5 @@ Videos/
 
 # Build artifacts
 *.tsbuildinfo
+
+.vercel

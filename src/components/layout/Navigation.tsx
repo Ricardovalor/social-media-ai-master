@@ -2,15 +2,7 @@
 
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import {
-  Home,
-  BarChart3,
-  DollarSign,
-  Bot,
-  Zap,
-  Coins,
-  Users
-} from 'lucide-react';
+import { Home, BarChart3, DollarSign, Bot, Zap, Coins, Users } from 'lucide-react';
 
 const navigation = [
   { name: 'Dashboard', href: '/', icon: Home },
@@ -33,11 +25,11 @@ export function Navigation() {
           <Link
             key={item.name}
             href={item.href}
-            className={\`flex items-center gap-3 px-3 py-2 rounded-lg transition-colors \${
+            className={`flex items-center gap-3 px-3 py-2 rounded-lg transition-colors ${
               isActive
                 ? 'bg-blue-100 text-blue-700 border border-blue-200'
                 : 'text-gray-700 hover:bg-gray-100'
-            }\`}
+            }`}
           >
             <item.icon className="w-5 h-5" />
             <span className="font-medium">{item.name}</span>
